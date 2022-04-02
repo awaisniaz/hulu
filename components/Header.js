@@ -14,7 +14,6 @@ export default function Header() {
            <HeaderItem  title='ACCOUNT' Icon={UserIcon} />
        </div>
       <h1 className='text-4xl font-extrabold'>Hulu</h1>
-
     </header>
   )
 }
