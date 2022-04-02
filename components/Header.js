@@ -4,7 +4,6 @@ import HeaderItem from './HeaderItem'
 import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon, UserIcon } from '@heroicons/react/solid'
 export default function Header() {
   return (
-    
     <header className='flex flex-col sm:flex-row m-5 justify-between items-center'>
        <div className='flex flex-grow justify-evenly max-w-2xl mt-2'>
            <HeaderItem  title='HOME' Icon={HomeIcon} />
