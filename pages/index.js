@@ -5,7 +5,6 @@ import Nav from '../components/Nav'
 import Result from '../components/Result'
 import request from '../utility/request.js'
 export default function Home({results}) {
-  
   return (
     <div>
       <Head>
